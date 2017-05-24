@@ -1,2 +1,24 @@
 1 npm install react-router@2.0.0 --save
 2 npm install axios --save
+
+SSH key (windows need to use git bash)
+1 ls -al ~/.ssh //to check if you have already have a SSH key
+2 ssh-keygen -t rsa -b 4096 -C 'you github email' //generate SSH
+3 eval "$(ssh-agent -s)"
+// let the machine aware of the exist of the SSH
+//then run step 1, found the id-rsa.pub
+4 ssh-add ~/.ssh/id_rsa //add identity
+//create a new SSH key
+5 more ~/.ssh/id_rsa.pub  //review the content of the file
+//copy the content and paste it in the ssh key area we created in the github
+
+//connected to the github
+6 ssh -T git@github.com
+
+7 git remote -v //check the remote repo
+8 git branch
+9 git push -u origin master
+
+~~create branch
+1 git branch "name"
+2 git checkout "name"
