@@ -23,3 +23,14 @@ SSH key (windows need to use git bash)
 1 git branch "name"
 2 git checkout name
 3 git push origin name
+4 //switch to master
+git checkout master
+5 git merge name//merge the changes in sub branches into master branch
+
+Heroku
+1 download and install heroku CLI, used to be known as heroku toolbelt
+2 heroku //run heroku and login in command line
+heroku login
+doralau$ heroku auth:whoami //to check who is login
+3 set package.json => "start": "node server.js" to tell heroku how to run the app
+ set default port in server.js
