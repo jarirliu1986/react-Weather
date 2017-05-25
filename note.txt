@@ -34,3 +34,8 @@ heroku login
 doralau$ heroku auth:whoami //to check who is login
 3 set package.json => "start": "node server.js" to tell heroku how to run the app
  set default port in server.js
+
+4 heroku create // create heroku app
+5 git remote -v // to watch the heroku path added in the branch
+6 git push heroku master //build and deploy the app
+7 heroku open //open your app
