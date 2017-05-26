@@ -20,13 +20,18 @@ SSH key (windows need to use git bash)
 8 git branch
 9 git push -u origin master
 
-~~create branch
+--create branch
 1 git branch "name"
 2 git checkout name
 3 git push origin name
 4 //switch to master
 git checkout master
 5 git merge name//merge the changes in sub branches into master branch
+
+--match the sub-branch in remote repo
+1 git fetch origin
+2 git checkout -b branchname
+3 git pull origin branchname
 
 Heroku
 1 download and install heroku CLI, used to be known as heroku toolbelt
