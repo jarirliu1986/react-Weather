@@ -1,7 +1,7 @@
 1 npm install react-router@2.0.0 --save
 2 npm install axios --save
 3 npm install css-loader@0.23.1 script-loader@0.6.1 style-loader@0.13.0 jquery@2.2.1 foundation-sites@6.2.0 --save-dev
-
+//test
 SSH key (windows need to use git bash)
 1 ls -al ~/.ssh //to check if you have already have a SSH key
 2 ssh-keygen -t rsa -b 4096 -C 'you github email' //generate SSH
