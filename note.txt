@@ -1,3 +1,16 @@
+"devDependencies": {
+  "babel-core": "^6.5.1",
+  "babel-loader": "^6.2.2",
+  "babel-preset-es2015": "^6.5.0",
+  "babel-preset-react": "^6.5.0",
+  "css-loader": "^0.23.1",
+  "foundation-sites": "^6.2.0",
+  "jquery": "^2.2.1",
+  "script-loader": "^0.6.1",
+  "style-loader": "^0.13.0",
+  "webpack": "^1.12.13"
+}
+
 1 npm install react-router@2.0.0 --save
 2 npm install axios --save
 3 npm install css-loader@0.23.1 script-loader@0.6.1 style-loader@0.13.0 jquery@2.2.1 foundation-sites@6.2.0 --save-dev
@@ -9,6 +22,8 @@ SSH key (windows need to use git bash)
 // let the machine aware of the exist of the SSH
 //then run step 1, found the id-rsa.pub
 4 ssh-add ~/.ssh/id_rsa //add identity
+
+
 //create a new SSH key
 5 more ~/.ssh/id_rsa.pub  //review the content of the file
 //copy the content and paste it in the ssh key area we created in the github
