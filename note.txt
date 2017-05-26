@@ -28,7 +28,7 @@ SSH key (windows need to use git bash)
 git checkout master
 5 git merge name//merge the changes in sub branches into master branch
 
---match the sub-branch in remote repo
+--match the sub-branch in remote repo.....
 1 git fetch origin
 2 git checkout -b branchname
 3 git pull origin branchname
