@@ -15,11 +15,13 @@ module.exports = {
         console.log(res.data);
         return res.data.list[0].main.temp;
       }else{
-        throw new Error(res.data.message);
+        //throw new Error(res.data.message);
+        throw new Error("unable to fetch weather for that location");
       }
     }, function (res) {
       console.log("errorMessage");
       throw new Error(res.data.message);
+      //throw new Error("unable to fetch weather for that location");
     });
   }
 }
